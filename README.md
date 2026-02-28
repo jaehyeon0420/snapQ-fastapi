@@ -64,6 +64,8 @@ React 프론트엔드에서 사용자가 파손 이미지를 업로드하면, Sp
 
 ## 2. 주요 기능
 
+- [목차로 돌아가기](#목차)
+  
 | 기능 | 설명 |
 |------|------|
 | **파손 유형 분류** | Azure Custom Vision을 활용하여 긁힘, 찌그러짐, 깨짐, 도색손상 4가지 유형으로 분류 |
@@ -85,6 +87,8 @@ React 프론트엔드에서 사용자가 파손 이미지를 업로드하면, Sp
 
 ## 3. 시스템 아키텍처
 
+- [목차로 돌아가기](#목차)
+  
 <p align="center">
   <img src="assets/architecture.PNG" alt="시스템 아키텍처">
 </p>
@@ -104,6 +108,8 @@ React 프론트엔드에서 사용자가 파손 이미지를 업로드하면, Sp
 ---
 
 ## 4. 워크플로우
+
+- [목차로 돌아가기](#목차)
 
 <p align="center">
   <img src="assets/workflow.PNG" alt="워크플로우" width="700">
@@ -128,6 +134,8 @@ React 프론트엔드에서 사용자가 파손 이미지를 업로드하면, Sp
 
 ## 5. 결과
 
+- [목차로 돌아가기](#목차)
+  
 ### 파손 영역 탐지 결과 이미지
 
 분석된 이미지에 바운딩 박스, 파손 유형, 신뢰도, 비용 정보가 시각화됩니다.
@@ -202,6 +210,8 @@ React 프론트엔드에서 사용자가 파손 이미지를 업로드하면, Sp
 
 ## 6. 기술 스택
 
+- [목차로 돌아가기](#목차)
+  
 | 분류 | 기술 |
 |------|------|
 | **Framework** | FastAPI, Uvicorn |
@@ -217,6 +227,8 @@ React 프론트엔드에서 사용자가 파손 이미지를 업로드하면, Sp
 
 ## 7. 프로젝트 구조
 
+- [목차로 돌아가기](#목차)
+  
 ```
 fastapiproject/
 ├── main.py                              # FastAPI 애플리케이션 진입점
@@ -252,6 +264,8 @@ fastapiproject/
 
 ## 8. API 엔드포인트
 
+- [목차로 돌아가기](#목차)
+  
 ### `POST /mycar/estimate`
 
 차량 파손 이미지를 분석하여 수리비 견적을 산출합니다.
@@ -286,6 +300,8 @@ curl -X POST "http://localhost:8000/mycar/estimate" \
 
 ## 9. 인프라 및 배포
 
+- [목차로 돌아가기](#목차)
+  
 <p align="center">
   <img src="assets/infra.PNG" alt="인프라 구성" width="700">
 </p>
@@ -318,6 +334,8 @@ GitHub Push → Jenkins Pipeline
 
 ## 10. 환경 설정 및 실행 방법
 
+- [목차로 돌아가기](#목차)
+  
 ### 사전 요구 사항
 
 - Python 3.11+
@@ -373,6 +391,7 @@ docker run -d \
 
 - Swagger UI: `http://localhost:8000/docs`
 - ReDoc: `http://localhost:8000/redoc`
+
 
 
 
