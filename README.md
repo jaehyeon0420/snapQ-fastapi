@@ -93,6 +93,12 @@ React 프론트엔드에서 사용자가 파손 이미지를 업로드하면, Sp
   <img src="assets/architecture.PNG" alt="시스템 아키텍처">
 </p>
 
+---
+
+## 4. 워크플로우
+
+- [목차로 돌아가기](#목차)
+
 **처리 흐름**
 
 1. ReactJS 프론트엔드에서 파손 이미지 업로드
@@ -104,12 +110,6 @@ React 프론트엔드에서 사용자가 파손 이미지를 업로드하면, Sp
 7. 분석 결과(견적 JSON + 시각화 이미지)를 Spring Boot에 응답
 8. Spring Boot가 견적 결과를 PostgreSQL에 저장
 9. ReactJS 프론트엔드에 결과 출력
-
----
-
-## 4. 워크플로우
-
-- [목차로 돌아가기](#목차)
 
 <p align="center">
   <img src="assets/workflow.PNG" alt="워크플로우" width="700">
@@ -391,6 +391,7 @@ docker run -d \
 
 - Swagger UI: `http://localhost:8000/docs`
 - ReDoc: `http://localhost:8000/redoc`
+
 
 
 
